@@ -1,0 +1,24 @@
+{
+    "name": "@ventose/utils-node",
+    "version": "0.0.13",
+    "description": "常用工具函数",
+    "Keywords": "utils",
+    "main": "./lodash_node.js",
+    "author": "https://github.com/ShoneSingLone",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ShoneSingLone/utils-node.git"
+    },
+    "scripts": {
+        "dev": "nodemon ./dev.js",
+        "doc": "node ./prepublish.js",
+        "up": "npm run doc && npm version patch && npm publish --access public"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "lodash": "^4.17.21"
+    },
+    "bugs": {
+        "url": "https://github.com/ShoneSingLone/utils-node/issues"
+    }
+}
