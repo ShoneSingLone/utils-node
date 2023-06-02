@@ -1,7 +1,8 @@
 const { tools } = require("../common");
 
 /**
- * 删除文件夹下所有问价及将文件夹下所有文件清空
+ * 清空文件夹内容，保留文件夹
+ * 删除文件夹下所有文件夹及文件
  * @param {*} path
  */
 async function asyncEmptyDir(path) {
