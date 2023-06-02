@@ -1,6 +1,6 @@
 {
     "name": "@ventose/utils-node",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "description": "常用工具函数",
     "Keywords": "utils",
     "main": "./lodash_node.js",
