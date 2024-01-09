@@ -1,5 +1,5 @@
 const { tools } = require("../common");
-const asyncSafeMakeDir = require("./asyncSafeMakeDir");
+const { asyncSafeMakeDir } = require("./asyncSafeMakeDir");
 const { dirName } = require("./dirName");
 
 /**
